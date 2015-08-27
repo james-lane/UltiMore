@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<ultimo translate="label" module="ultimo">
+			<groups>				
+				<product_labels translate="label">
+					<fields>
+						<customlabel1 translate="label">
+							<label>Show "Custom Label 1" Label</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>81</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</customlabel1>
+						<customlabel2 translate="label">
+							<label>Show "Custom Label 2" Label</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>82</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</customlabel2>
+						<customlabel3 translate="label">
+							<label>Show "Custom Label 3" Label</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>83</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</customlabel3>
+					</fields>
+				</product_labels>
+			</groups>
+		</ultimo>
+		<ultramegamenu translate="label">
+			<groups>
+				<category_labels translate="label">
+					<fields>
+						<customlabel1 translate="label">
+							<label>Custom Label 1</label>
+							<comment><![CDATA[Define the text of the Custom Label 1. Labels can be assigned to every category in Catalog > Manage Categories.]]></comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>81</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</customlabel1>
+						<customlabel2 translate="label">
+							<label>Custom Label 2</label>
+							<comment><![CDATA[Define the text of the Custom Label 2. Labels can be assigned to every category in Catalog > Manage Categories.]]></comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>82</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</customlabel2>
+						<customlabel3 translate="label">
+							<label>Custom Label 3</label>
+							<comment><![CDATA[Define the text of the Custom Label 3. Labels can be assigned to every category in Catalog > Manage Categories.]]></comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>83</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</customlabel3>
+					</fields>
+				</category_labels>
+			</groups>
+		</ultramegamenu>
+	</sections>
+</config>

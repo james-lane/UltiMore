@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <modules>
+        <UltiMore_ExtraMenuLabel>
+            <version>0.1.0</version>
+        </UltiMore_ExtraMenuLabel>
+    </modules>
+
+        <frontend>
+            <layout>
+                <updates>
+                    <UltiMore_ExtraMenuLabel>
+                        <file>UltiMore_ExtraMenuLabel.xml</file>
+                    </UltiMore_ExtraMenuLabel>
+                </updates>
+            </layout>
+        </frontend>
+
+        <helpers>
+            <extramenulabel>
+                <class>UltiMore_ExtraMenuLabel_Helper</class>
+            </extramenulabel>
+        </helpers>
+        
+</config>
